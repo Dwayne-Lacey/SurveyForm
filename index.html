@@ -2,14 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
         <title>Burger Survey</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <h1 id="title">The Burger Experience</h1>
         <p id="description">Tell us about your experience with fast food burgers</p>
-        <form>
-            
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Please enter your name:<input id="name" name="name" type="text" placeholder="John Doe"/></label>
+                <label id="email-label" for="email">Please enter your email:<input id="email" name="email" type="email" placeholder="johndoe@gmail.com"/></label>
+                <label id="number-label">Age <label id="optional-label" class="optional">(optional)</label><input type="number" min="16" max="105"/></label>
+            </fieldset>
         </form>
     </body>
 </html>
