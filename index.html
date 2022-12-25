@@ -11,26 +11,32 @@
         <p id="description">Tell us about your experience with fast food burgers</p>
         <form id="survey-form">
             <fieldset>
-                <label id="name-label" for="name">Please enter your name:<input id="name" name="name" type="text" placeholder="John Doe"/></label>
-                <label id="email-label" for="email">Please enter your email:<input id="email" name="email" type="email" placeholder="johndoe@gmail.com"/></label>
-                <label id="number-label">Age <label id="optional-label" class="optional">(optional)</label><input type="number" min="16" max="105" placeholder="18" /></label>
+                <label id="name-label" for="name">Please enter your name:<input id="name" name="name" type="text" required placeholder="John Doe"/></label>
+                <label id="email-label" for="email">Please enter your email:<input id="email" name="email" type="email" required placeholder="johndoe@gmail.com"/></label>
+                <label id="number-label" for="age">Age <label id="optional-label" class="optional" for="age">(optional)</label><input id="age" name="age" type="number" min="16" max="105" placeholder="18" /></label>
             </fieldset>
             <fieldset>
                 <label>What is your favorite fast food restaurant?</label>
-                <label><input type="radio"/> Wendy's</label>
-                <label><input type="radio"/> Burger King</label>
-                <label><input type="radio"/> McDonald's</label>
-                <label>When was the last time you had a juicy burger?
-                    <select>
-                        <option>Select an option</option>
-                        <option>Today</option>
-                        <option>Past week</option>
-                        <option>Past month</option>
-                        <option>Past year</option>
-                        <option>Over a year ago</option>
-                        <option>Never</option>
+                <label id="wendy-label" for="wendy"><input id="wendy" name="fast-food" type="radio"/> Wendy's</label>
+                <label id="burger-king-label" for="burger-king"><input id="burger-king" name="fast-food" type="radio"/> Burger King</label>
+                <label id="mcdonald-label" for="mcdonald"><input id="mcdonald" name="fast-food" type="radio"/> McDonald's</label>
+                <label id="dropdown-label" for="dropdown">When was the last time you had a juicy burger?
+                    <select id="dropdown" name="frequency-dropdown">
+                        <option value="">Select an option</option>
+                        <option value="1">Today</option>
+                        <option value="2">Past week</option>
+                        <option value="3">Past month</option>
+                        <option value="4">Past year</option>
+                        <option value="5">Over a year ago</option>
+                        <option value="6">Never</option>
                     </select>
                 </label>
+                <label>What're your favorite burgers?</label>
+                <label id="italian-burger-label" for="italian-burger"><input id="italian-burger" name="italian-burger" value="italian-burger" type="checkbox"/>Italian Burger</label>
+                <label id="steakburger-label" for="steakburger"><input id="steakburger" name="steakburger" value="steakburger" type="checkbox"/>A1 Steakburger</label>
+                <label id="bbqburger-label" for="bbqburger"><input id="bbqburger" name="bbqburger" value="bbqburger" type="checkbox"/>Bourbon BBQ Burger</label>
+                <label id="whopperburger-label" for="whopperburger"><input id="whopperburger" name="whopperburger" value="whopperburger" type="checkbox"/>Whopper</label>
+                <label id="macburger-label" for="macburger"><input id="macburger" name="macburger" value="macburger" type="checkbox"/>Big Mac</label>
             </fieldset>
         </form>
     </body>
