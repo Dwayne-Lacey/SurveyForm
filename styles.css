@@ -1,4 +1,4 @@
-label {
+label, select, textarea {
     display: block;
 }
 
