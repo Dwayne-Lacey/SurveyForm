@@ -54,9 +54,10 @@ input[type="submit"] {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #3b3b4f;
-    border-color: white;
+    background-color: #442760;
+    color: white;
     min-width: 300px;
+    border-width: 1px;
 }
 
 .optional {
