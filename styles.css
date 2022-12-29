@@ -16,6 +16,16 @@ form {
     padding-bottom: 2em;
 }
 
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid rgb(12, 12, 78);
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
 h1, p {
     margin: 1em auto;
     text-align: center;
