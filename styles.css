@@ -30,8 +30,15 @@ h1, p {
     margin: 1em auto;
     text-align: center;
 }
-
-.block, label, select, textarea {
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+.questions {
+    padding-bottom: 10px;
+}
+.block, label {
     display: block;
 }
 
