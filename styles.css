@@ -26,6 +26,10 @@ fieldset:last-of-type {
     border-bottom: none;
 }
 
+fieldset {
+    padding-top: 1rem;
+}
+
 h1, p {
     margin: 1em auto;
     text-align: center;
@@ -40,6 +44,10 @@ input, textarea, select {
 }
 .block, label {
     display: block;
+}
+
+select {
+    width: 101%;
 }
 
 .inline {
