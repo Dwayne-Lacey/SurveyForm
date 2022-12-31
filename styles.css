@@ -44,6 +44,7 @@ input, textarea, select {
 }
 .block, label {
     display: block;
+    margin-bottom: 5px;
 }
 
 select {
@@ -70,4 +71,5 @@ input[type="submit"] {
 
 .optional {
     display: inline;
+    font-size: small;
 }
